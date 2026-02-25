@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cape Town - The Mother City</title>
+    <style>
+        body {
+            /* Full page background */
+            background-image: url("Cape Town.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            image-rendering: high-quality;
+            
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', sans-serif;
+            color: #fff;
+        }
+
+        /* Landscape images for top and bottom */
+        .landscape-img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 4px solid #2ecc71; /* Ocean/Nature Green accent */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .content-box {
+            /* Glassmorphism Effect: See-through but readable */
+            background: rgba(0, 0, 0, 0.4); 
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            
+            padding: 40px;
+            max-width: 750px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 { 
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #2ecc71;
+        }
+
+        .activities {
+            text-align: left;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        ul { list-style: "☀️ "; line-height: 2; }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 40px;
+            background-color: #2ecc71;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #27ae60;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <img src="capetown_top.jpg" alt="Cape Town Coastline" class="landscape-img">
+
+    <div class="container">
+        <div class="content-box">
+            <h1>Cape Town</h1>
+            <p>Welcome to the Mother City, where the mountains meet the sea. Home to the iconic Table Mountain and stunning botanical gardens.</p>
+
+            <div class="activities">
+                <h3>Top Experiences:</h3>
+                <ul>
+                    <li>Hiking Table Mountain for sunset</li>
+                    <li>Visiting the penguins at Boulders Beach</li>
+                    <li>Driving along the scenic Chapman's Peak</li>
+                </ul>
+            </div>
+            <br>
+        <a href="apply.html" class="back-btn">Apply Now</a>
+            <br>
+            <a href="index2.html" class="back-btn">RETURN TO GUIDE</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+        /* Base styling from the code snippet in the image */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Background color updated to match the purple/lavender theme */
+            background: #b5b1f1; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Container for the form widget */
+        .form-container {
+            width: 100%;
+            max-width: 900px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Styling for the div height as seen in the image snippet */
+        div {
+            /* height: 200px;  Note: This was in the original snippet, but removed for form flexibility */
+        }
+    

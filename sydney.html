@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sydney - The Harbor City</title>
+    <style>
+        body {
+            /* Full page background from Pinterest */
+            background-image: url("sydney.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            image-rendering: high-quality;
+            
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a2a6c; /* Deep harbor blue text */
+        }
+
+        /* Landscape images for top and bottom */
+        .landscape-img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 6px solid #ff7e5f; /* Sunset orange accent */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.92); /* Bright white with slight transparency */
+            padding: 40px;
+            max-width: 700px;
+            border-radius: 2px; /* Sharp, modern edges */
+            border-left: 10px solid #1a2a6c;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+
+        h1 { 
+            font-size: 2.5rem;
+            margin-top: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .highlights {
+            margin: 25px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+
+        ul { list-style-type: square; line-height: 2; }
+
+        .back-btn {
+            display: inline-block;
+            padding: 12px 35px;
+            background: #1a2a6c;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #ff7e5f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="sydney_opera.jpg" alt="Sydney Opera House Landscape" class="landscape-img">
+
+    <div class="container">
+        <div class="info-card">
+            <h1>Sydney, Australia</h1>
+            <p>Welcome to the harbor city, famous for its iconic skyline, world-class surfing beaches, and vibrant culture.</p>
+
+            <div class="highlights">
+                <h3>Highlights of Sydney:</h3>
+                <ul>
+                    <li>Walking across the Sydney Harbour Bridge</li>
+                    <li>Taking a ferry from Circular Quay to Manly</li>
+                    <li>Surfing the waves at Bondi Beach</li>
+                </ul>
+            </div>
+          <br/>
+        <a href="apply.html" class="back-btn">Apply Now </a>
+          <br/>
+
+        <a href="index2.html" class="back-btn">Return to Main Guide</a>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
